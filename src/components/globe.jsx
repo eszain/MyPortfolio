@@ -23,16 +23,22 @@ const GLOBE_CONFIG = {
   markerColor: [1, 1, 1],
   glowColor: [1, 1, 1],
   markers: [
-    { location: [14.5995, 120.9842], size: 0.03 },
-    { location: [19.076, 72.8777], size: 0.1 },
-    { location: [23.8103, 90.4125], size: 0.05 },
-    { location: [30.0444, 31.2357], size: 0.07 },
-    { location: [39.9042, 116.4074], size: 0.08 },
-    { location: [-23.5505, -46.6333], size: 0.1 },
-    { location: [19.4326, -99.1332], size: 0.1 },
-    { location: [40.7128, -74.006], size: 0.1 },
-    { location: [34.6937, 135.5022], size: 0.05 },
-    { location: [41.0082, 28.9784], size: 0.06 },
+    { location: [55.6761, 12.5683], size: 0.08 }, // Copenhagen, Denmark
+    { location: [51.5074, -0.1278], size: 0.08 }, // London, UK
+    { location: [53.4808, -2.2426], size: 0.08 }, // Manchester, UK
+    { location: [31.5497, 74.3436], size: 0.08 }, // Lahore, Pakistan
+    { location: [24.8607, 67.0011], size: 0.08 }, // Karachi, Pakistan
+    { location: [6.9271, 79.8612], size: 0.08 },  // Colombo, Sri Lanka
+    { location: [30.0444, 31.2357], size: 0.08 }, // Cairo, Egypt
+    { location: [43.6532, -79.3832], size: 0.08 }, // Toronto, Canada
+    { location: [18.5601, -68.3725], size: 0.08 }, // Punta Cana, Dominican Republic
+    { location: [38.9072, -77.0369], size: 0.08 }, // Washington DC, USA
+    { location: [40.4406, -79.9959], size: 0.08 }, // Pittsburgh, USA
+    { location: [24.7136, 46.6753], size: 0.08 }, // Riyadh, Saudi Arabia
+    { location: [21.3891, 39.8579], size: 0.08 }, // Mecca, Saudi Arabia
+    { location: [24.5247, 39.5692], size: 0.08 }, // Medina, Saudi Arabia
+    { location: [25.2048, 55.2708], size: 0.08 }, // Dubai, UAE
+    { location: [25.2854, 51.5310], size: 0.08 }, // Doha, Qatar
   ],
 };
 

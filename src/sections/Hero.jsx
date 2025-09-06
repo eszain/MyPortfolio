@@ -21,14 +21,22 @@ const Hero = () => {
         <Canvas camera={{ position: [0, 1, 3] }}>
           <Suspense fallback={<Loader />}>
             <Float>
-              <Astronaut
-                scale={isMobile && 0.23}
-                position={isMobile && [0, -1.5, 0]}
-              />
+              <Astronaut />
             </Float>
             <Rig />
           </Suspense>
         </Canvas>
+        {/* Phoenix text */}
+        <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2 z-20">
+          <div className="relative">
+            {/* Trapezoid box */}
+            <div className="bg-gradient-to-b from-storm to-indigo px-6 py-3 transform -skew-x-12">
+              <p className="text-white text-sm italic text-center transform skew-x-12">
+                Hi to my phoenix Larry!
+              </p>
+            </div>
+          </div>
+        </div>
       </figure>
     </section>
   );

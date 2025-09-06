@@ -9,9 +9,9 @@ const HeroText = () => {
     visible: { opacity: 1, x: 0 },
   };
   return (
-    <div className="z-10 mt-20 text-center md:mt-40 md:text-left rounded-3xl bg-clip-text">
+    <div className="z-10 text-center rounded-3xl bg-clip-text absolute top-20 left-1/2 transform -translate-x-1/2 w-full">
       {/* Desktop View */}
-      <div className="flex-col hidden md:flex c-space">
+      <div className="flex-col hidden md:flex items-center">
         <motion.h1
           className="text-4xl font-medium"
           variants={variants}
@@ -19,9 +19,9 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Hi I'm Zain
         </motion.h1>
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-center">
           <motion.p
             className="text-5xl font-medium text-neutral-300"
             variants={variants}
@@ -29,7 +29,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Developer <br /> Dedicated to Crafting
+            Hacking Together
           </motion.p>
           <motion.div
             variants={variants}
@@ -49,12 +49,12 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Solutions
+            Software Solutions
           </motion.p>
         </div>
       </div>
       {/* Mobile View */}
-      <div className="flex- flex-col space-y-6 md:hidden">
+      <div className="flex flex-col space-y-6 md:hidden items-center">
         <motion.p
           className="text-4xl font-medium"
           variants={variants}
@@ -72,7 +72,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Building
+            Hacking Together
           </motion.p>
           <motion.div
             variants={variants}
@@ -92,7 +92,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Applications
+            Software Solutions
           </motion.p>
         </div>
       </div>

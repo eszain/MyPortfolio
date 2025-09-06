@@ -17,10 +17,10 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">Hi, I'm Ali Sanati</p>
+            <p className="headtext">Hi, I'm Zain Syed</p>
             <p className="subtext">
-              Over the last 4 years, I developed my frontend and backend dev
-              skills to deliver dynamic and software and web applications.
+            I'm a 3rd year computer engineering student at YorkU. I love participating in hackathons,
+             not only for collecting stickers, but also winning prizes by solving solutions in todays AI world.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
@@ -79,9 +79,9 @@ const About = () => {
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Time Zone</p>
+            <p className="headtext">Hobby: Traveling!</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              See those dots on the globe? That's where I've been!
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
