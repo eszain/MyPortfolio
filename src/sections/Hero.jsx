@@ -32,7 +32,7 @@ const Hero = () => {
             {/* Trapezoid box */}
             <div className="bg-gradient-to-b from-storm to-indigo px-6 py-3 transform -skew-x-12">
               <p className="text-white text-sm italic text-center transform skew-x-12">
-                Hi to my phoenix Larry!
+                Say hi to my phoenix Larry!
               </p>
             </div>
           </div>
@@ -44,10 +44,11 @@ const Hero = () => {
 
 function Rig() {
   return useFrame((state, delta) => {
+    // Slower camera movement - reduced sensitivity by 5x
     easing.damp3(
       state.camera.position,
-      [state.mouse.x / 10, 1 + state.mouse.y / 10, 3],
-      0.5,
+      [state.mouse.x / 50, 1 + state.mouse.y / 50, 3],
+      0.1, // Much slower damping
       delta
     );
   });
