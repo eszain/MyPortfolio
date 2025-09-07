@@ -1,117 +1,43 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Careline AI",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "An AI agentic customer support platform that revolutionizes customer service through intelligent automation and seamless user experiences.",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Building a comprehensive SaaS platform using Turborepo with pnpm for efficient monorepo management and modern development workflows.",
+      "Implementing secure authentication with Clerk, real-time reactive database with Convex, and comprehensive error tracking via Sentry.io.",
+      "Developing AI agents for intelligent customer support automation with secure API integrations and backend architecture.",
+      "Launching by end of September 2024, focusing on user base growth and potential market expansion based on product validation.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/care.png",
     tags: [
       {
         id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
+        name: "Turborepo",
+        path: "/assets/logos/vitejs.svg",
       },
       {
         id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
+        name: "Clerk",
+        path: "/assets/logos/auth0.svg",
       },
       {
         id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
+        name: "Convex",
+        path: "/assets/logos/sqlite.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "AI Agents",
+        path: "/assets/logos/github.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
-    description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
-    subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/auth-system.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Blazor Web App",
-    description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
-    subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/blazor-app.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
     title: "Beat The Clock Binary",
     description:
       "A two-player FPGA game where players race to guess 5-bit numbers before time runs out. Built in Verilog for the DE-10 Lite board. Think fast, guess faster! ⏳💡",
@@ -149,70 +75,70 @@ export const myProjects = [
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "IoT Plant Monitoring System",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "A Java-based project that automates plant watering using an Arduino, a moisture sensor, and a pump. Say goodbye to thirsty plants and hello to smart gardening! 🌱💧",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Developed an automatic plant watering system using Arduino board, moisture sensor, and water pump controlled by Java state machine.",
+      "Implemented a three-state system (Dry, Slightly Dry, Wet) that monitors soil moisture levels every second and adjusts pump operation accordingly.",
+      "Built using Java with TimerTask and Firmata4j libraries for real-time Arduino communication and precise timing control.",
+      "Created a complete hardware setup with MOSFET for pump control, battery power management, and voltage threshold-based moisture detection.",
     ],
-    href: "",
+    href: "https://github.com/eszain/IoT-Plant-Monitoring-System",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/plant.jpg",
     tags: [
       {
         id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
+        name: "Java",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
+        name: "Arduino",
+        path: "/assets/logos/git.svg",
       },
       {
         id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
+        name: "IoT",
+        path: "/assets/logos/github.svg",
       },
       {
         id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
+        name: "Hardware",
+        path: "/assets/logos/microsoft.svg",
       },
     ],
   },
   {
-    id: 6,
-    title: "Online Learning Platform",
+    id: 4,
+    title: "PhysioGrow - TerraHacks 2025",
     description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
+      "Transform physical therapy from an isolating and monotonous chore into an engaging, motivating, and clinically effective digital experience with AI-guided exercises.",
     subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
+      "Developed a gamified physical therapy app using React 18, TypeScript, and MediaPipe Pose for real-time AI-guided exercise tracking.",
+      "Implemented camera integration with pose estimation, real-time feedback, and template matching for shoulder abduction exercises.",
+      "Built an engaging user flow with welcome page, camera setup, exercise selection, gameplay with AI guidance, and results visualization.",
+      "Created a tree garden leaderboard system with XP tracking, progress persistence, and mobile-responsive design using Tailwind CSS.",
     ],
-    href: "",
+    href: "https://github.com/fouzanpasha/physioapp",
     logo: "",
-    image: "/assets/projects/elearning.jpg",
+    image: "/assets/projects/phys.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "React",
+        path: "/assets/logos/react.svg",
       },
       {
         id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
+        name: "TypeScript",
+        path: "/assets/logos/javascript.svg",
       },
       {
         id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
+        name: "MediaPipe",
+        path: "/assets/logos/github.svg",
       },
       {
         id: 4,
@@ -225,19 +151,9 @@ export const myProjects = [
 
 export const mySocials = [
   {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
-  {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/zaincodes77/",
     icon: "/assets/socials/linkedIn.svg",
-  },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/Zain.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
   },
 ];
 

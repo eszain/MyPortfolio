@@ -10,7 +10,7 @@ import React, { useEffect, useRef } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 
-export function Astronaut(props) {
+export function Phoenix(props) {
   const group = useRef();
   const { nodes, materials, animations } = useGLTF("/models/phoenix_bird.glb");
   const { actions } = useAnimations(animations, group);

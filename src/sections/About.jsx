@@ -79,7 +79,7 @@ const About = () => {
         {/* Grid 3 */}
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
-            <p className="headtext">Hobby: Traveling!</p>
+            <p className="headtext">Fun Fact: I love to travel!</p>
             <p className="subtext">
               See those dots on the globe? That's where I've been!
             </p>
