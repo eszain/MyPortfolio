@@ -1,4 +1,5 @@
 import React from "react";
+// Main App component
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
