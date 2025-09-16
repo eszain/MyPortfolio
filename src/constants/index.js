@@ -37,6 +37,43 @@ export const myProjects = [
     ],
   },
   {
+    id: 6,
+    title: "GiftFlow - HopHacks 2025",
+    description:
+      "A platform that responsibly bridges wealth gaps by matching Patrons (donors seeking tax deductions) with Charities who post tax-deductible wishes. The system guarantees that only tax-deductible wishes can be published and fulfilled.",
+    subDescription: [
+      "Built a comprehensive Next.js 15 platform with React 19, TypeScript, and Tailwind CSS for modern, responsive user experiences with Clerk authentication and Supabase database integration.",
+      "Implemented a sophisticated tax verification pipeline using OCR (Tesseract.js), rules engine, and LLM assistant to automatically verify custom wishes for tax deductibility before publication.",
+      "Developed secure payment processing with Stripe integration, automatic tax receipt generation, and comprehensive analytics dashboard for tracking donations by demographics and purpose.",
+      "Created a robust security system with Row Level Security (RLS), audit logging, PII protection, and moderation workflows to ensure compliance and data protection across all user interactions.",
+    ],
+    href: "https://github.com/eszain/GiftFlow",
+    logo: "",
+    image: "/assets/projects/giftflow.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/vitejs.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 3,
+        name: "Supabase",
+        path: "/assets/logos/sqlite.svg",
+      },
+      {
+        id: 4,
+        name: "Stripe",
+        path: "/assets/logos/stripe.svg",
+      },
+    ],
+  },
+  {
     id: 2,
     title: "Beat The Clock Binary",
     description:
@@ -146,7 +183,7 @@ export const myProjects = [
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
-  },
+  }
 ];
 
 export const mySocials = [
